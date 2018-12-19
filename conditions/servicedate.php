@@ -12,10 +12,8 @@ if (!($var instanceof DateTime) !== FALSE)
     {
         $value = false;
         $row_array2[] = $row;
-        $error_type2[] = 'Column: '. $col .' - Non-valid date format - Row: '. "$row";
+        $error_type2[] = 'Column: '. $col2 .' - Non-valid date format - Row: '. "$row";
     }
-
-
     $row++;
 }
 

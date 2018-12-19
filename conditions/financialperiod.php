@@ -2,17 +2,17 @@
 
 $value = true;
 $row = 2;
-$row_array = array();
-$error_type = array();
+$row_array3= array();
+$error_type3 = array();
 
-while (($data = fgetcsv($handle, ",")) !== FALSE)
+while (($data = fgetcsv($handle,",")) !== FALSE)
 {
     $var = ctype_digit($data[$c]);
     if ( $var == null)
     {
         $value = false;
-        $row_array1[] = $row;
-        $error_type1[] = 'Column: '. $col .' - Non-valid number value - Row: '. "$row";
+        $row_array3[] = $row;
+        $error_type3[] = 'Column: '. $col3 .' - Non-valid number value - Row: '. "$row";
     }
     $row++;
   }

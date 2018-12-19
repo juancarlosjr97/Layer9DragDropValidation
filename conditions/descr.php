@@ -1,19 +1,19 @@
 <?php
-
 $value = true;
 $row = 2;
-$row_array = array();
-$error_type = array();
+$row_array13 = array();
+$error_type13 = array();
 
 while (($data = fgetcsv($handle, ",")) !== FALSE)
 {
-    if (!is_numeric($data[$c]))
+    $var = ctype_digit($data[$c]);
+    if ( $var == null)
     {
         $value = false;
-        $row_array[] = $row;
-        $error_type[] = 'Not a Number - Row: '. "$row";
+        $row_array13[] = $row;
+        $error_type13[] = 'Column: '. $col13 .' - Non-valid number value - Row: '. "$row";
     }
     $row++;
-}
+  }
 
-?>
+  ?>

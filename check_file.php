@@ -15,9 +15,9 @@ foreach (glob("files_uploaded/to_check/*.*") as $file) {
       {
           while (($data = fgetcsv($handle, ",")) !== FALSE)
           {
-              $num =count($data);
+              $num = count($data);
 
-                  include ('conditions.php');
+              include ('conditions.php');
           }
           fclose($handle);
       }
