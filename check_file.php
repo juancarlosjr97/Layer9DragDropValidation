@@ -18,6 +18,7 @@ foreach (glob("files_uploaded/to_check/*.*") as $file) {
               $num = count($data);
 
               include ('conditions.php');
+
           }
           fclose($handle);
       }
