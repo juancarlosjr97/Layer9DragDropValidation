@@ -2,7 +2,7 @@
 
 #### [DEMONSTRATION VIDEO HERE SOON](----)
 
-#### [DOWNLOAD HERE](https://github.com/yanwsh/videojs-panorama/releases)
+#### [DOWNLOAD HERE](https://codeload.github.com/juancarlosjr97/Layer9DragDropValidation/zip/master)
 
 # DragDropValidation v1.0.0 stable is coming soon and full documentation
 
