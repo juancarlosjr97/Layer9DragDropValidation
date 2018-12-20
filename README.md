@@ -9,7 +9,7 @@
 
 ## Documentation and testing
 
-## Requirements
+### Requirements
 * PHP 7.1.19 or above
 
 ## Libraries used
