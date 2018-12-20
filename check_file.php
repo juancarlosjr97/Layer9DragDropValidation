@@ -1,4 +1,5 @@
 <?php
+$time_start = microtime(true);
 foreach (glob("files_uploaded/to_check/*.*") as $file) {
 
   $path_parts = pathinfo($file);
@@ -53,5 +54,13 @@ foreach (glob("files_uploaded/to_check/*.*") as $file) {
               }
           }
     }
+$time_end = microtime(true);
+
+//dividing with 60 will give the execution time in minutes otherwise seconds
+$execution_time = ($time_end - $time_start)/60;
+
+//execution time of the script
+echo '<b>Total Execution Time:</b> '.$execution_time.' Mins';
+// if you get weird results, use number_format((float) $execution_time, 10)
 
 ?>
