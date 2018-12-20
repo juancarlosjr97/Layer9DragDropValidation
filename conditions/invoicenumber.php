@@ -27,8 +27,8 @@ while (($data = fgetcsv($handle, ",")) !== FALSE)
                 $value = false;
                 $row_array1[] = $row;
                 $error_type1[] = 'Column: '. $col1 .' - Non-valid number value ( Empty Cell) - Row: '. "$row";
+                break;
             }
-            break;
 
         $co--;
       } while ($co > 0);

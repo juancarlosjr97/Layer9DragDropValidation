@@ -1,3 +1,0 @@
-invoicenumber,servicedate,financialperiod,custid,custname,siteid,sitename,addr1,addr2,city,postcode,wastetype,descr,wastedescription,ewccode,disposalmode,disposalmodedesc,qty,kgs,tonnes,costs
-1158334,02/10/2017 0:00,201710,9002457,Layer 9,2,Community Hospital  ,Martell Road,                              ,London,SE218EN,NULL,HWCN-AdministrationFee        ,NULL,NULL,NULL,NULL,1,0,0,£5.00 
-1158334,02/10/2017 0:00,201710,9002457,Layer 9,2,Community Hospital  ,Martell Road,                              ,London,SE218EN,NULL,HWCN-Req for Waste Disposal   ,NULL,NULL,NULL,NULL,1,0,0,£5.00 
