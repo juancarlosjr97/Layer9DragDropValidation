@@ -14,7 +14,6 @@
 
   <!-- 3 -->
 
-
   <form action="upload.php" class="dropzone"></form>
 
   <?php

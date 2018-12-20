@@ -1,5 +1,7 @@
 <?php
 $time_start = microtime(true);
+ini_set('memory_limit', '-1');
+ini_set('max_execution_time', 0);
 foreach (glob("files_uploaded/to_check/*.*") as $file) {
 
   $path_parts = pathinfo($file);
@@ -33,7 +35,7 @@ foreach (glob("files_uploaded/to_check/*.*") as $file) {
         $milliseconds = microtime(true);
         $newfilename =  $now. $milliseconds. '.csv';
         rename("$file", "files_uploaded/checked/$newfilename");
-        echo 'The file '. basename($file) .' has been uploaded successfully and the new name is ' .$newfilename ."<br/>\n";
+        echo 'The file '. basename($file) .' has been uploaded successfully and the new name is ' .$newfilename ."<br/>\n"."<br/>\n";
     }
     else {
             echo 'Error file name: '. basename($file) . "<br/>\n";

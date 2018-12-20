@@ -1,4 +1,5 @@
 <?php
+
 $ds          = DIRECTORY_SEPARATOR;  //1
 
 $storeFolder = 'files_uploaded/to_check/';;   //2
