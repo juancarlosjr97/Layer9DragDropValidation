@@ -1,8 +1,9 @@
 # Layer9DragDropValidation
 
+#### [DEMONSTRATION ONLINE HERE SOON](----)
 #### [DEMONSTRATION VIDEO HERE SOON](----)
 
-#### [DOWNLOAD HERE](https://codeload.github.com/juancarlosjr97/Layer9DragDropValidation/zip/master)
+#### [DOWNLOAD REPOSITORY](https://codeload.github.com/juancarlosjr97/Layer9DragDropValidation/zip/master)
 
 # DragDropValidation v1.0.0 stable is coming soon and full documentation
 
@@ -13,7 +14,7 @@
 
 ## Libraries used
 
-* [PhpSpreadshee](https://phpspreadsheet.readthedocs.io/en/develop/)
+* [PhpSpreadsheet](https://phpspreadsheet.readthedocs.io/en/develop/)
 * [DropZoneJS](https://www.dropzonejs.com)
 
 
