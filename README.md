@@ -91,7 +91,7 @@ Chrome, Safari.
 * 20 * XLSX provided by Layer 9 without empty lines at the same time = 1.1 second
 
 
-## Validation Execution time - Tested using LocalHost
+### Validation Execution time - Tested using LocalHost
 * XLSX provided by Layer 9 = 25 seconds (Ten thousand lines empty that are read by the program)
 
 * XLSX provided by Layer 9 without empty lines = 2 seconds
@@ -99,6 +99,3 @@ Chrome, Safari.
 * 20 * XLSX provided by Layer 9 at the same time = XX seconds (Ten thousand lines empty that are read by the program) - No tested yet, error of maximum and allowed memory sized exhausted
 
 * 20 * XLSX provided by Layer 9 without empty lines at the same time = 36 seconds
-
-## References
-* Will be provided upon request
